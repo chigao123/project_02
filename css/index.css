@@ -1,0 +1,297 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+.laoji {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2.2rem;
+}
+.laoji .header-bar {
+  z-index: 99;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: pink;
+}
+.header-wrapper {
+  z-index: 999;
+  display: flex;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1.76rem;
+}
+.header-wrapper .header-left,
+.header-wrapper .header-right {
+  background-image: url(/img/小鸡.png) no-repeat;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-size: 1.2rem 1.2rem;
+  background-image: url(/img/小鸡.png);
+  margin: 0.25rem 0.2rem;
+}
+.header-wrapper .header-right {
+  background-size: 1.2rem 1.2rem;
+  background-image: url(/img/个人1.png);
+}
+.header-wrapper .header-middle {
+  margin-top: 0.32rem;
+  flex: 1;
+}
+.header-wrapper .header-middle input {
+  display: block;
+  border-radius: 1rem;
+  width: 100%;
+  border: 0;
+  height: 1.2rem;
+  background-color: white;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin-top: 1.4rem;
+  padding-left: 0.8rem;
+  height: 1.76rem;
+  justify-self: center;
+}
+.nav .nav-current {
+  border-bottom: 4px solid #999;
+  color: red;
+}
+.nav .nav-item {
+  float: left;
+  width: 2rem;
+  text-align: center;
+  margin: 0 8px;
+  font-size: 0.6rem;
+}
+.nav-dispaly {
+  position: absolute;
+  z-index: 9999;
+  right: 0.4rem;
+  top: 1.8em;
+  background-size: 0.8rem 0.8rem;
+  background-image: url(/img/箭头\ 下.png);
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.nav-item-layer {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 1.8rem;
+  width: 100%;
+  height: 3.6rem;
+  background-color: pink;
+}
+.nav-item-layer .title {
+  width: 2rem;
+  left: 0.6rem;
+  font-size: 0.6rem;
+  position: absolute;
+}
+.nav-item-layer .btn-wrap {
+  justify-self: center;
+  margin-top: 1.2rem;
+  left: 0.4rem;
+  position: fixed;
+  display: flex;
+}
+.nav-item-layer .btn {
+  font-size: 0.5rem;
+  text-align: center;
+  width: 2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0.4rem;
+  border: 1px solid #999;
+}
+.swiper-wrapper {
+  width: 400%;
+  overflow: hidden;
+  z-index: -99999;
+  transform: translateX(-25%);
+  margin-top: 3.1rem;
+}
+.swiper-wrapper img {
+  float: left;
+  width: 25%;
+}
+.swiper-circle {
+  z-index: 9999;
+  position: absolute;
+  left: 50%;
+  top: 10rem;
+  transform: translateX(-50%);
+}
+.swiper-circle ul {
+  overflow: hidden;
+}
+.swiper-circle ul li {
+  float: left;
+  margin-left: 0.2rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: rgba(114, 114, 114, 0.363);
+  border-radius: 50%;
+}
+.swiper-circle ul .cur {
+  background-color: white;
+}
+.car-nav {
+  overflow: hidden;
+  background-color: white;
+}
+.car-nav a {
+  font-size: 0.3rem;
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: center;
+}
+.car-nav a img {
+  margin-top: 0.4rem;
+  width: 25%;
+}
+.car-nav a span {
+  color: #999;
+  line-height: 0.8rem;
+  display: block;
+}
+.footer-bar {
+  z-index: 999;
+  box-shadow: 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  bottom: 0rem;
+  background-color: white;
+  justify-self: center;
+}
+.footer-bar a {
+  text-align: center;
+  width: 20%;
+}
+.footer-bar img {
+  width: 30%;
+}
+.footer-bar span {
+  font-size: 0.4rem;
+  display: block;
+  color: #999;
+  line-height: 0.8rem;
+}
+.cells {
+  overflow: hidden;
+  margin-top: 0.4rem;
+}
+.cells a {
+  float: left;
+  display: block;
+  width: 7.4rem;
+  height: 10.16rem;
+}
+.cells .exposure {
+  float: right;
+  height: 5.04rem;
+}
+.hot a {
+  display: block;
+  width: 15.4rem;
+  height: 8.8rem;
+}
+.list-type {
+  background-color: white;
+  padding: 0.08rem;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  box-sizing: inherit;
+}
+.list-type a {
+  padding: 0 0.08rem;
+  display: block;
+}
+.list-type a .buybtn {
+  color: white;
+  margin: 0 auto;
+  width: 4rem;
+  padding: 0.2rem;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  background: #ea625b;
+}
+.list-type a .brief {
+  color: #929292;
+}
+.list-type a .price {
+  color: #ea625b;
+}
+.list-type a .price .old-price {
+  text-decoration: line-through;
+  color: black;
+}
+.title-box {
+  margin: 0.2rem 0;
+  background-color: white;
+  font-size: 0.56rem;
+  line-height: 1.8rem;
+  text-align: center;
+}

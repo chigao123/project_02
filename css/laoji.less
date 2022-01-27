@@ -1,0 +1,101 @@
+body{
+    background-color: #f5f5f5;
+}
+.footer-bar{
+    z-index: 999;
+    box-shadow: 0 3px 14px 2px rgb(0 0 0 / 12%);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom:0rem;
+    background-color: white;
+    justify-self: center;
+    a{  
+        text-align: center;
+        width: 20%;
+    }
+    img{
+        width: 30%;
+    }
+    span{
+        font-size: .4rem;
+        display: block;
+        margin-top: .8rem;
+        color: rgb(206, 206, 206);
+        line-height: 2rem;
+    }
+}
+.car{
+    margin-bottom: 4.8rem;
+}
+.card{
+    border-bottom: rgb(247, 245, 245) 10px solid;
+    display: flex;
+    padding: .96rem 0;
+    .checked{
+        padding: 0 .8rem;
+        width: 2.4rem;
+        background: url(/img/dui.png) 50% 50% no-repeat;
+        background-size: 1.6rem 1.6rem;
+    }
+    a{
+        border: 1px #cdcdcd solid;
+        margin-right: 1.8rem;
+        img{
+            width: 8rem;
+        }
+    }
+    .info{
+        font-size: .4rem;
+        text-align: left;
+        width:19.2rem;
+    }
+    .price{
+       line-height: 2rem;
+        font-size: .3rem;
+        color: #bababa;
+    }
+    .num{
+
+        display: inline-block;
+
+        .sub{
+
+            width: 2.4rem;
+            height: 2.4rem;
+            display: inline-block;
+            vertical-align:middle;
+            background: url(/img/sub.png)no-repeat;
+            background-size: 1.2rem;
+            background-position: 50%;
+            background-color: #f5f5f5;
+        }
+        .add{
+            width: 2.4rem;
+            vertical-align:middle;
+            height: 2.4rem;
+            display: inline-block;
+            background: url(/img/add.png) no-repeat;
+            background-size: 1.2rem;
+            background-position: 50%;
+            background-color: #f5f5f5;
+        }
+        .sum{
+            display: inline-block;
+            height: 2.4rem;
+            width: 2.4rem;
+            text-align: center;
+            line-height: 2.4rem;
+          span{
+                text-align: center;
+            }
+        }
+    }
+}
+.del{
+    float: right;
+    img{
+        width: 2.4rem;
+
+    }
+}

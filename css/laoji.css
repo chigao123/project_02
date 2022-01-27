@@ -1,0 +1,97 @@
+body {
+  background-color: #f5f5f5;
+}
+.footer-bar {
+  z-index: 999;
+  box-shadow: 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  bottom: 0rem;
+  background-color: white;
+  justify-self: center;
+}
+.footer-bar a {
+  text-align: center;
+  width: 20%;
+}
+.footer-bar img {
+  width: 30%;
+}
+.footer-bar span {
+  font-size: 0.4rem;
+  display: block;
+  margin-top: 0.8rem;
+  color: #cecece;
+  line-height: 2rem;
+}
+.car {
+  margin-bottom: 4.8rem;
+}
+.card {
+  border-bottom: #f7f5f5 10px solid;
+  display: flex;
+  padding: 0.96rem 0;
+}
+.card .checked {
+  padding: 0 0.8rem;
+  width: 2.4rem;
+  background: url(/img/dui.png) 50% 50% no-repeat;
+  background-size: 1.6rem 1.6rem;
+}
+.card a {
+  border: 1px #cdcdcd solid;
+  margin-right: 1.8rem;
+}
+.card a img {
+  width: 8rem;
+}
+.card .info {
+  font-size: 0.4rem;
+  text-align: left;
+  width: 19.2rem;
+}
+.card .price {
+  line-height: 2rem;
+  font-size: 0.3rem;
+  color: #bababa;
+}
+.card .num {
+  display: inline-block;
+}
+.card .num .sub {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(/img/sub.png) no-repeat;
+  background-size: 1.2rem;
+  background-position: 50%;
+  background-color: #f5f5f5;
+}
+.card .num .add {
+  width: 2.4rem;
+  vertical-align: middle;
+  height: 2.4rem;
+  display: inline-block;
+  background: url(/img/add.png) no-repeat;
+  background-size: 1.2rem;
+  background-position: 50%;
+  background-color: #f5f5f5;
+}
+.card .num .sum {
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  text-align: center;
+  line-height: 2.4rem;
+}
+.card .num .sum span {
+  text-align: center;
+}
+.del {
+  float: right;
+}
+.del img {
+  width: 2.4rem;
+}
